@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 @OutputTimeUnit(TimeUnit.SECONDS)
 public class FractalBenchmark {
 
-    @Param({"10"})
+    @Param({"10", "20", "30", "40", "50"})
     private int size;
 
     @Setup(Level.Trial)
@@ -57,11 +57,11 @@ public class FractalBenchmark {
     }
 
     public static void main(String... args) throws Exception{
-		String pwd = new File(".").getAbsolutePath();
-		Options opts = new OptionsBuilder()
+        String pwd = new File("libs\\natives").getAbsolutePath();
+        Options opts = new OptionsBuilder()
                 .include(FractalBenchmark.class.getCanonicalName())
                 .jvmArgs("-Djava.library.path=" + pwd)
-                .resultFormat(ResultFormatType.TEXT)
+                .resultFormat(ResultFormatType.CSV)
                 .measurementIterations(5)
                 .warmupIterations(5)
                 .forks(1)

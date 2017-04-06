@@ -29,5 +29,3 @@ dependencies {
 shadowJar {
     baseName = 'shadow'
 }
-
-build.finalizedBy copyDll

@@ -1,2 +1,4 @@
 Benchmark                      (size)  Mode  Cnt   Score    Error  Units
 FractalBenchmark.testJavaDraw      10  avgt    5  ≈ 10⁻⁴            s/op
+FractalBenchmark.testJnaDraw       10  avgt    5   0.001 ±  0.001   s/op
+FractalBenchmark.testJnrDraw       10  avgt    5   0.001 ±  0.004   s/op
