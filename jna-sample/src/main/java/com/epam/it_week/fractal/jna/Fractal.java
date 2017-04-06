@@ -1,6 +1,5 @@
 package com.epam.it_week.fractal.jna;
 
-import com.epam.it_week.NativeUtils;
 import com.sun.jna.Library;
 import com.sun.jna.Native;
 
@@ -17,22 +16,13 @@ public class Fractal {
     interface NativeAPI extends Library {
         void generate(Point.ByReference image, int w, int h);
     }
-
-    private static final String FRACTAL_LIB = "nativeBenchmark";
-
+    private static NativeAPI API;
     static {
-        String path = FRACTAL_LIB + (System.getProperty("os.arch").equals("x86") ? "_x32" : "_x64");
-        try {
-            NativeUtils.loadLibraryFromJar(path, System::loadLibrary);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        String fractalLib = "nativeBenchmark";
+        String libPath = fractalLib + (System.getProperty("os.arch").equals("x86") ? "_x32" : "_x64");
+        System.loadLibrary(libPath);
+        API = Native.loadLibrary(libPath, NativeAPI.class);
     }
-
-    private static final NativeAPI API =
-            Native.loadLibrary(FRACTAL_LIB +
-                    (System.getProperty("os.arch").equals("x86") ? "_x32" : "_x64"), NativeAPI.class);
-
 
     private final Point[] pointMap;
     private final int width;

@@ -9,21 +9,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/common" />
-            <option value="$PROJECT_DIR$/java-sample" />
-            <option value="$PROJECT_DIR$/jna-sample" />
-            <option value="$PROJECT_DIR$/jni-sample" />
-            <option value="$PROJECT_DIR$/jnr-sample" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/common" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/java-sample" />
             <option value="$PROJECT_DIR$/jna-sample" />
             <option value="$PROJECT_DIR$/jni-sample" />

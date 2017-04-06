@@ -1,6 +1,5 @@
 package com.epam.it_week.fractal.jnr;
 
-import com.epam.it_week.NativeUtils;
 import jnr.ffi.LibraryLoader;
 import jnr.ffi.Runtime;
 import jnr.ffi.annotations.Out;
@@ -15,19 +14,14 @@ import java.io.IOException;
  * Created by Sergey Larin on 15.03.2017.
  */
 public class Fractal {
-    private static final String FRACTAL_LIB = "nativeBenchmark";
+    private static LibC API;
     static {
-        String path = FRACTAL_LIB +
+        String fractalLib = "nativeBenchmark";
+        String libPath = fractalLib +
                 (System.getProperty("os.arch").equals("x86") ? "_x32" : "_x64");
-        try {
-            NativeUtils.loadLibraryFromJar(path, System::loadLibrary);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+            System.loadLibrary(libPath);
+        API = LibraryLoader.create(LibC.class).load(libPath);
     }
-
-    private static final LibC API = LibraryLoader.create(LibC.class).load(FRACTAL_LIB +
-            (System.getProperty("os.arch").equals("x86") ? "_x32" : "_x64"));
 
     public interface LibC {
         void generate(@Out Point[] image, @int32_t int x, @int32_t int y);

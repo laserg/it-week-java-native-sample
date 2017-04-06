@@ -3,5 +3,4 @@ include 'java-sample'
 include 'jni-sample'
 include 'jna-sample'
 include 'jnr-sample'
-include 'common'
 

@@ -9,7 +9,7 @@ sourceCompatibility = 1.8
 
 jar {
     manifest {
-        attributes 'Main-Class': 'com.epam.it_week.BiomorphBenchmark'
+        attributes 'Main-Class': 'com.epam.it_week.FractalBenchmark'
     }
 }
 
@@ -20,7 +20,6 @@ repositories {
 dependencies {
     compile group: 'org.openjdk.jmh', name: 'jmh-core', version: '1.18'
     compile group: 'org.openjdk.jmh', name: 'jmh-generator-annprocess', version: '1.18'
-    compile files('libs/natives/nativeBenchmarks_x64.dll')
     compile project(':java-sample')
     compile project(':jni-sample')
     compile project(':jna-sample')
@@ -30,3 +29,5 @@ dependencies {
 shadowJar {
     baseName = 'shadow'
 }
+
+build.finalizedBy copyDll

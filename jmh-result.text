@@ -1,1 +1,2 @@
-Benchmark  Mode  Cnt  Score   Error  Units
+Benchmark                      (size)  Mode  Cnt   Score    Error  Units
+FractalBenchmark.testJavaDraw      10  avgt    5  ≈ 10⁻⁴            s/op

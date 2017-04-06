@@ -1,6 +1,14 @@
 package com.epam.it_week;
 
-import org.openjdk.jmh.annotations.*;
+import org.openjdk.jmh.annotations.Benchmark;
+import org.openjdk.jmh.annotations.BenchmarkMode;
+import org.openjdk.jmh.annotations.Level;
+import org.openjdk.jmh.annotations.Mode;
+import org.openjdk.jmh.annotations.OutputTimeUnit;
+import org.openjdk.jmh.annotations.Param;
+import org.openjdk.jmh.annotations.Scope;
+import org.openjdk.jmh.annotations.Setup;
+import org.openjdk.jmh.annotations.State;
 import org.openjdk.jmh.infra.Blackhole;
 import org.openjdk.jmh.results.Result;
 import org.openjdk.jmh.results.RunResult;
@@ -9,6 +17,7 @@ import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 @State(Scope.Benchmark)
@@ -16,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 @OutputTimeUnit(TimeUnit.SECONDS)
 public class FractalBenchmark {
 
-    @Param({"10", "100", "1000", "3000"})
+    @Param({"10"})
     private int size;
 
     @Setup(Level.Trial)
@@ -48,9 +57,10 @@ public class FractalBenchmark {
     }
 
     public static void main(String... args) throws Exception{
-        Options opts = new OptionsBuilder()
+		String pwd = new File(".").getAbsolutePath();
+		Options opts = new OptionsBuilder()
                 .include(FractalBenchmark.class.getCanonicalName())
-//                .jvmArgs("-Djava.library.path=D:\\NATIVE\\it-week-java-native-sample\\libs\\natives")
+                .jvmArgs("-Djava.library.path=" + pwd)
                 .resultFormat(ResultFormatType.TEXT)
                 .measurementIterations(5)
                 .warmupIterations(5)
@@ -64,10 +74,5 @@ public class FractalBenchmark {
                     + r.getScoreUnit() + " over "
                     + r.getStatistics().getN() + " iterations");
         }
-
-        new com.epam.it_week.fractal.java.Biomorph(100, 100).draw("D:\\out\\javaTest.jpg");
-        new com.epam.it_week.fractal.jni.Fractal(100, 100).draw("D:\\out\\jniTest.jpg");
-        new com.epam.it_week.fractal.jna.Fractal(100, 100).draw("D:\\out\\jnaTest.jpg");
-        new com.epam.it_week.fractal.jna.Fractal(100, 100).draw("D:\\out\\jnrTest.jpg");
     }
 }
