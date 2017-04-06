@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_main.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_test.iml" group="app" />
+      <module fileurl="file://$USER_HOME$/IdeaProjects/untitled/.idea/modules/common.iml" filepath="$USER_HOME$/IdeaProjects/untitled/.idea/modules/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/it-week-java-native-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/it-week-java-native-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/it-week-java-native-sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/it-week-java-native-sample_main.iml" group="it-week-java-native-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/it-week-java-native-sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/it-week-java-native-sample_test.iml" group="it-week-java-native-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-sample/java-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/java-sample/java-sample.iml" group="java-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-sample/java-sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-sample/java-sample_main.iml" group="java-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-sample/java-sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-sample/java-sample_test.iml" group="java-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jna-sample/jna-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/jna-sample/jna-sample.iml" group="jna-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jna-sample/jna-sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jna-sample/jna-sample_main.iml" group="jna-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jna-sample/jna-sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jna-sample/jna-sample_test.iml" group="jna-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jni-sample/jni-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/jni-sample/jni-sample.iml" group="jni-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jni-sample/jni-sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jni-sample/jni-sample_main.iml" group="jni-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jni-sample/jni-sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jni-sample/jni-sample_test.iml" group="jni-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jnr-sample/jnr-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/jnr-sample/jnr-sample.iml" group="jnr-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jnr-sample/jnr-sample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jnr-sample/jnr-sample_main.iml" group="jnr-sample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jnr-sample/jnr-sample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jnr-sample/jnr-sample_test.iml" group="jnr-sample" />
+    </modules>
+  </component>
+</project>

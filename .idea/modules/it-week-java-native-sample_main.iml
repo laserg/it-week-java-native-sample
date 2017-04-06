@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="it-week-java-native-sample:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../../common" external.system.id="GRADLE" external.system.module.group="com.epam.it_week" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../libs/natives/nativeBenchmarks_x64.dll" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.openjdk.jmh:jmh-core:1.18" level="project" />
+    <orderEntry type="library" name="Gradle: org.openjdk.jmh:jmh-generator-annprocess:1.18" level="project" />
+    <orderEntry type="module" module-name="java-sample_main" />
+    <orderEntry type="module" module-name="jni-sample_main" />
+    <orderEntry type="module" module-name="jna-sample_main" />
+    <orderEntry type="module" module-name="jnr-sample_main" />
+    <orderEntry type="library" name="Gradle: net.sf.jopt-simple:jopt-simple:4.6" level="project" />
+    <orderEntry type="module" module-name="common_main" />
+    <orderEntry type="library" name="Gradle: net.java.dev.jna:jna:4.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-ffi:2.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jffi:1.2.15" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jffi:native:1.2.15" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-commons:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-analysis:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-tree:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-util:5.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.jnr:jnr-x86asm:1.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-math3:3.6.1" level="project" />
+  </component>
+</module>

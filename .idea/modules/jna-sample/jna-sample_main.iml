@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":jna-sample:main" external.linked.project.path="$MODULE_DIR$/../../../jna-sample" external.root.project.path="$MODULE_DIR$/../../../common" external.system.id="GRADLE" external.system.module.group="com.epam.it_week" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../jna-sample/build/classes/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../jna-sample/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../jna-sample/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../jna-sample/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: net.java.dev.jna:jna:4.4.0" level="project" />
+    <orderEntry type="module" module-name="common_main" />
+  </component>
+</module>
