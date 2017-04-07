@@ -1,0 +1,16 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99.9%)","Unit","Param: size"
+"com.epam.it_week.FractalBenchmark.testJavaDraw","avgt",1,5,0.000098,0.000054,"s/op",10
+"com.epam.it_week.FractalBenchmark.testJavaDraw","avgt",1,5,0.000360,0.000005,"s/op",20
+"com.epam.it_week.FractalBenchmark.testJavaDraw","avgt",1,5,0.000854,0.000195,"s/op",30
+"com.epam.it_week.FractalBenchmark.testJavaDraw","avgt",1,5,0.001346,0.000031,"s/op",40
+"com.epam.it_week.FractalBenchmark.testJavaDraw","avgt",1,5,0.002029,0.000065,"s/op",50
+"com.epam.it_week.FractalBenchmark.testJnaDraw","avgt",1,5,0.000745,0.000943,"s/op",10
+"com.epam.it_week.FractalBenchmark.testJnaDraw","avgt",1,5,0.004251,0.015187,"s/op",20
+"com.epam.it_week.FractalBenchmark.testJnaDraw","avgt",1,5,0.010728,0.045328,"s/op",30
+"com.epam.it_week.FractalBenchmark.testJnaDraw","avgt",1,5,0.016861,0.062011,"s/op",40
+"com.epam.it_week.FractalBenchmark.testJnaDraw","avgt",1,5,0.018395,0.028223,"s/op",50
+"com.epam.it_week.FractalBenchmark.testJnrDraw","avgt",1,5,0.000842,0.002081,"s/op",10
+"com.epam.it_week.FractalBenchmark.testJnrDraw","avgt",1,5,0.004434,0.017831,"s/op",20
+"com.epam.it_week.FractalBenchmark.testJnrDraw","avgt",1,5,0.005728,0.006041,"s/op",30
+"com.epam.it_week.FractalBenchmark.testJnrDraw","avgt",1,5,0.011159,0.015330,"s/op",40
+"com.epam.it_week.FractalBenchmark.testJnrDraw","avgt",1,5,0.028311,0.112653,"s/op",50

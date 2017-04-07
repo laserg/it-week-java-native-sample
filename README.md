@@ -6,11 +6,11 @@ You can find the native project [here](https://github.com/laserg/fractal-native-
 
 ## How to build
 1) To build application as a benchmark, use _shadowJar_ task.
-2) If you want to build it as a normal application use _jar_ task.
+2) If you want to build it as a normal application use _jar_ task.  
 Do not forget to specify java.library.path as an option at JVM startup.
 
 ## Contacts
-If you have questions you can ask them to use
+If you have questions you can ask them to use  
 mail(laserg92@gmail.com) or skype(sergey.larin92)
 
 
