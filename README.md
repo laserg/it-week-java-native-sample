@@ -10,7 +10,7 @@ You can find the native project [here](https://github.com/laserg/fractal-native-
 Do not forget to specify java.library.path as an option at JVM startup.
 
 ## Contacts
-If you have questions you can ask them to use  
+If you have questions you can ask them to use
 mail(laserg92@gmail.com) or skype(sergey.larin92)
 
 
