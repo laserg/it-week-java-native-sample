@@ -4,7 +4,7 @@ developed on Java using Native extensions.
 
 You can find the native project [here](https://github.com/laserg/fractal-native-benchmark).
 
-If you have questions you can ask them to use
+If you have questions you can ask them to use  
 mail(laserg92@gmail.com) or skype(sergey.larin92)
 
 * [JNI specification](https://docs.oracle.com/javase/8/docs/technotes/guides/jni/spec/jniTOC.html)
